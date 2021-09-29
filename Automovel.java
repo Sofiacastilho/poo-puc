@@ -1,30 +1,13 @@
-package tdeum;
+package provapoo;
 
-public class Automovel extends Veiculo {
+public class Automovel extends Transporte{
 
-    Automovel ferrari = new Automovel();
-    Automovel fusca = new Automovel();
-
-    public void passarMarcha (){
-        System.out.println("passando marcha..");
+    public void abastecer(){
+        System.out.println("Tanque cheio.");
     }
 
-
-    public Automovel getFerrari() {
-        return ferrari;
+    public void passarMarcha(){
+        System.out.println("Marcha passada.");
     }
-
-    public void setFerrari(Automovel ferrari) {
-        this.ferrari = ferrari;
-    }
-
-    public Automovel getFusca() {
-        return fusca;
-    }
-
-    public void setFusca(Automovel fusca) {
-        this.fusca = fusca;
-    }
-
 
 }
